@@ -23,9 +23,22 @@
   #   i += 1
 
   #===Break statements===
-i = 1
-while i < 11:
-    print (i)
-    if i == 3:
-        break
-    i += 1
+# i = 1
+# while i < 11:
+#     print (i)
+#     if i == 3:
+#         break
+#     i += 1
+
+#=================continue======
+# i = 1
+# while i < 3:
+#   i += 1
+#   if i == 4:
+#     continue
+#   print(i)
+
+for x in range(1,10):
+    if x == 9:
+      break
+    print(x)
